@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f92892de2dd1d4da17856766556cd1, type: 3}
+  m_Name: tictactoe-01
+  m_EditorClassIdentifier: 
+  manifest:
+    id: artarmin.tictactoe-01
+    title: Tic Tac Toe
+    coverImageFileName: 
+    boardConfig:
+      prefabPath: board
+      checkerPieceCollection:
+      - type: 0
+        prefabPath: tictactoe-x-checker-piece-01
+        playerId: 1
+        useRandomRotation: 0
+      - type: 0
+        prefabPath: tictactoe-o-checker-piece-01
+        playerId: 2
+        useRandomRotation: 1
+    logicConfig:
+      playerCount: 2
+      isDiceAvailable: 0
+      diceMinValue: 0
+      diceMaxValue: 0
+      diceHasSecondValue: 0
+      fieldPositionsCount:
+        x: 3
+        y: 1
+        z: 3
+      checkerPieces:
+      - Type: 0
+        PlayerId: 1
+        Id:
+          startPosition:
+            x: -1
+            y: 1
+            z: 1
+          index: 0
+      - Type: 0
+        PlayerId: 1
+        Id:
+          startPosition:
+            x: -1
+            y: 1
+            z: 1
+          index: 1
+      - Type: 0
+        PlayerId: 1
+        Id:
+          startPosition:
+            x: -1
+            y: 1
+            z: 1
+          index: 2
+      - Type: 0
+        PlayerId: 1
+        Id:
+          startPosition:
+            x: -1
+            y: 1
+            z: 1
+          index: 3
+      - Type: 0
+        PlayerId: 1
+        Id:
+          startPosition:
+            x: -1
+            y: 1
+            z: 1
+          index: 4
+      - Type: 0
+        PlayerId: 2
+        Id:
+          startPosition:
+            x: -2
+            y: 1
+            z: 1
+          index: 0
+      - Type: 0
+        PlayerId: 2
+        Id:
+          startPosition:
+            x: -2
+            y: 1
+            z: 1
+          index: 1
+      - Type: 0
+        PlayerId: 2
+        Id:
+          startPosition:
+            x: -2
+            y: 1
+            z: 1
+          index: 2
+      - Type: 0
+        PlayerId: 2
+        Id:
+          startPosition:
+            x: -2
+            y: 1
+            z: 1
+          index: 3
+      - Type: 0
+        PlayerId: 2
+        Id:
+          startPosition:
+            x: -2
+            y: 1
+            z: 1
+          index: 4
+      startingPlayer: 0
+      generateMovesUsingCheckerPiecesOnBoard: 0
+      isPossibleMoveHomeToAny: 1
+      isPossibleMoveAnyToHome: 0
+      isPossibleMoveGraveyardToAny: 0
+      isPossibleMoveAnyToGraveyard: 0
+      isPossibleMoveWithinBoard: 0
+      moveDestinationCanContainCurrentPlayerPieces: 0
+      moveDestinationCanContainOtherPlayerPieces: 0
+      gameMoveGenerationTypeRule: 0
+      gameWinType: 1
+      gameWinRule: 0
+      gameWinCheckWhetherNextPlayerHasAnyMoves: 1
+      gameWinCustomWinningPositions:
+      - positions:
+        - x: 1
+          y: 1
+          z: 1
+        - x: 1
+          y: 1
+          z: 2
+        - x: 1
+          y: 1
+          z: 3
+      - positions:
+        - x: 2
+          y: 1
+          z: 1
+        - x: 2
+          y: 1
+          z: 2
+        - x: 2
+          y: 1
+          z: 3
+      - positions:
+        - x: 3
+          y: 1
+          z: 1
+        - x: 3
+          y: 1
+          z: 2
+        - x: 3
+          y: 1
+          z: 3
+      - positions:
+        - x: 1
+          y: 1
+          z: 1
+        - x: 2
+          y: 1
+          z: 1
+        - x: 3
+          y: 1
+          z: 1
+      - positions:
+        - x: 1
+          y: 1
+          z: 2
+        - x: 2
+          y: 1
+          z: 2
+        - x: 3
+          y: 1
+          z: 2
+      - positions:
+        - x: 1
+          y: 1
+          z: 3
+        - x: 2
+          y: 1
+          z: 3
+        - x: 3
+          y: 1
+          z: 3
+      - positions:
+        - x: 1
+          y: 1
+          z: 1
+        - x: 2
+          y: 1
+          z: 2
+        - x: 3
+          y: 1
+          z: 3
+      - positions:
+        - x: 1
+          y: 1
+          z: 3
+        - x: 2
+          y: 1
+          z: 2
+        - x: 3
+          y: 1
+          z: 1
